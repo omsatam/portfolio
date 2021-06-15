@@ -1,0 +1,44 @@
+.about {
+  background-color: rgb(236, 236, 236);
+}
+.about > hr {
+  margin-top: 5px;
+  width: 120px;
+  height: 2px;
+  margin: 0 auto;
+  background-color: black;
+  border: none;
+  margin-bottom: 20px;
+}
+.about__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.about > h2 {
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  font-size: 35px;
+  text-align: center;
+}
+.about__info {
+  max-width: 500px;
+  margin: 20px;
+  padding: 20px;
+}
+.about__info > h2 {
+  margin-bottom: 20px;
+}
+.about__work {
+  margin-top: 50px;
+  justify-self: center;
+  cursor: pointer;
+  background-color: #808080;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.about__skills {
+  width: 500px;
+  margin-bottom: 30px;
+}

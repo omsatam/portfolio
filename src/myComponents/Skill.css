@@ -1,0 +1,17 @@
+hr {
+  height: 30px;
+  width: 450px;
+  background-color: red;
+}
+.skill__container {
+  background-color: rgb(212, 209, 209);
+  display: flex;
+  margin: 10px;
+}
+.skill__container > h6 {
+  width: 100px;
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  background-color: #909090;
+}

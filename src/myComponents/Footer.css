@@ -1,0 +1,21 @@
+.footer {
+  /* height: 15vh; */
+  background-color: rgb(68, 68, 68);
+}
+.footer__icons {
+  display: flex;
+  justify-content: space-around;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.footer__icon {
+  font-size: 35px !important;
+  color: black !important;
+}
+.footer__text {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
