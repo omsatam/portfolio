@@ -10,7 +10,7 @@ function Contact() {
 
   const sendData = async (e) => {
     e.preventDefault();
-    if ((nameRef.current.value !== null) && (emailRef.current.value !== null)){
+    if ((nameRef.current.value != null) && (emailRef.current.value != null)){
       await axios.post("contact", {
         name: nameRef.current.value,
         email: emailRef.current.value,
