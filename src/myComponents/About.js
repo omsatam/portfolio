@@ -15,7 +15,8 @@ function About() {
             built various applications using React, HTML/CSS, MERN, Django,
             Python.
           </h2>
-          <Link to="projects">
+          <Link to="projects" 
+            smooth={true}>
             <span className="about__work">View my work</span>
           </Link>
         </div>
