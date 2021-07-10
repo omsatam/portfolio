@@ -10,16 +10,18 @@ function Contact() {
 
   const sendData = async (e) => {
     e.preventDefault();
-    await axios.post("contact", {
-      name: nameRef.current.value,
-      email: emailRef.current.value,
-      message: messageRef.current.value,
-    });
-    nameRef.current.value = null;
-    emailRef.current.value = null;
-    messageRef.current.value = null;
-    setEmailSent(true);
-    console.log("email sent");
+    if (nameRef && emailRef){
+      await axios.post("contact", {
+        name: nameRef.current.value,
+        email: emailRef.current.value,
+        message: messageRef.current.value,
+      });
+      nameRef.current.value = null;
+      emailRef.current.value = null;
+      messageRef.current.value = null;
+      setEmailSent(true);
+      console.log("email sent");
+    }
   };
   return (
     <div id="contact" className="contact">
