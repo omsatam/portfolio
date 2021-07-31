@@ -12,7 +12,7 @@ function Contact() {
   const sendData = async (e) => {
     e.preventDefault();
     var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-    if (emailRef.current.value && nameRef.current.value && emailRef.current.value.match(validRegex)){
+    if (emailRef.current.value && nameRef.current.value){
       await axios.post("contact", {
         name: nameRef.current.value,
         email: emailRef.current.value,
