@@ -7,10 +7,12 @@ function Contact() {
   const emailRef = useRef(null);
   const messageRef = useRef(null);
   const [emailSent, setEmailSent] = useState(false);
+  const [contactMessage, setContactMessage] = useState("");
 
   const sendData = async (e) => {
     e.preventDefault();
-    if (emailRef.current.value && nameRef.current.value){
+    var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    if (emailRef.current.value && nameRef.current.value && emailRef.current.value.match(validRegex)){
       await axios.post("contact", {
         name: nameRef.current.value,
         email: emailRef.current.value,
@@ -19,8 +21,13 @@ function Contact() {
       nameRef.current.value = null;
       emailRef.current.value = null;
       messageRef.current.value = null;
+      setContactMessage("Thanks for contacting");
       setEmailSent(true);
-      console.log("email sent");
+//       console.log("email sent");
+    }
+    else{
+          setContactMessage("Please fill the details correctly");
+          setEmailSent(true);
     }
   };
   return (
@@ -28,7 +35,7 @@ function Contact() {
       <div className="contact__data">
         <h2>Contact</h2>
         <hr />
-        <h5>{emailSent ? "Thanks for contacting" : "get in touch"}</h5>
+        <h5>{emailSent ? {contactMessage} : "get in touch"}</h5>
         <input ref={nameRef} type="text" placeholder="Name" />
         <input ref={emailRef} type="email" placeholder="Email" />
         <textarea
