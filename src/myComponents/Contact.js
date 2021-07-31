@@ -11,7 +11,7 @@ function Contact() {
 
   const sendData = async (e) => {
     e.preventDefault();
-    var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+//     var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     if (emailRef.current.value && nameRef.current.value){
       await axios.post("contact", {
         name: nameRef.current.value,
@@ -24,10 +24,11 @@ function Contact() {
       setContactMessage("Thanks for contacting");
       setEmailSent(true);
 //       console.log("email sent");
-    } else {
-          setContactMessage("Please fill the details correctly");
-          setEmailSent(true);
-    }
+    } 
+//       else {
+//           setContactMessage("Please fill the details correctly");
+//           setEmailSent(true);
+//     }
   };
   return (
     <div id="contact" className="contact">
