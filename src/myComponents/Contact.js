@@ -8,7 +8,7 @@ function Contact() {
   const messageRef = useRef(null);
   const [emailSent, setEmailSent] = useState(false);
   const [contactMessage, setContactMessage] = useState("");
-
+  
   const sendData = async (e) => {
     e.preventDefault();
 //     var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
@@ -35,7 +35,7 @@ function Contact() {
       <div className="contact__data">
         <h2>Contact</h2>
         <hr />
-        <h5>{emailSent ? {contactMessage} : "get in touch"}</h5>
+        <h5>{emailSent ? contactMessage : "get in touch"}</h5>
         <input ref={nameRef} type="text" placeholder="Name" />
         <input ref={emailRef} type="email" placeholder="Email" />
         <textarea
