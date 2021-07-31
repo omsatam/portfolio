@@ -24,8 +24,7 @@ function Contact() {
       setContactMessage("Thanks for contacting");
       setEmailSent(true);
 //       console.log("email sent");
-    }
-    else{
+    } else {
           setContactMessage("Please fill the details correctly");
           setEmailSent(true);
     }
