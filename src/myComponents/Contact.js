@@ -26,6 +26,9 @@ function Contact() {
 //       console.log("email sent");
     } 
       else {
+          nameRef.current.value = null;
+          emailRef.current.value = null;
+          messageRef.current.value = null;
           setContactMessage("Please fill the details correctly");
           setEmailSent(true);
     }
