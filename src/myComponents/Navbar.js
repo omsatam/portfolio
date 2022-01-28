@@ -68,7 +68,7 @@ function Navbar() {
             activeClass="active"
             spy={true}
             to="projects"
-            offset={-60}
+            offset={-55}
             smooth={true}
           >
             Projects
@@ -79,7 +79,7 @@ function Navbar() {
             activeClass="active"
             to="contact"
             spy={true}
-            offset={-60}
+            offset={-55}
             smooth={true}
           >
             Contact
