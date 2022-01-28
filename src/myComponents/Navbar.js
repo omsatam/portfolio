@@ -57,7 +57,7 @@ function Navbar() {
             activeClass="active"
             spy={true}
             to="about"
-            offset={-50}
+            offset={-55}
             smooth={true}
           >
             About
