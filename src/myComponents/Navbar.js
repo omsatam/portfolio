@@ -45,7 +45,7 @@ function Navbar() {
           <Link
             activeClass="active"
             to="home"
-            offset={-80}
+            offset={-60}
             spy={true}
             smooth={true}
           >
@@ -57,7 +57,7 @@ function Navbar() {
             activeClass="active"
             spy={true}
             to="about"
-            offset={-80}
+            offset={-60}
             smooth={true}
           >
             About
@@ -68,7 +68,7 @@ function Navbar() {
             activeClass="active"
             spy={true}
             to="projects"
-            offset={-80}
+            offset={-60}
             smooth={true}
           >
             Projects
@@ -79,7 +79,7 @@ function Navbar() {
             activeClass="active"
             to="contact"
             spy={true}
-            offset={-80}
+            offset={-60}
             smooth={true}
           >
             Contact
