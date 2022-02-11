@@ -18,6 +18,9 @@ function Navbar() {
   };
   // console.log(window.screen.width);
   useEffect(() => {
+      if (window.screen.width < parseInt(700)) {
+        showMenu
+      }
     for (let i = 0; i < navs.length; i++) {
       if (window.screen.width < parseInt(700)) {
         navs[i].addEventListener("click", showMenu);
