@@ -22,8 +22,10 @@ function Navbar() {
         showMenu();
       }
     for (let i = 0; i < navs.length; i++) {
-      if (window.screen.width < parseInt(700) && navs[i].textcontent !== "Portfolio") {
-        navs[i].addEventListener("click", showMenu);
+      if (window.screen.width < parseInt(700)) {
+         if (navs[i].textcontent !== "Portfolio") {
+            navs[i].addEventListener("click", showMenu);
+         }
       }
     }
     window.addEventListener("scroll", () => {
