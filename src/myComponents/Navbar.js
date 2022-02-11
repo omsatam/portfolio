@@ -13,7 +13,7 @@ function Navbar() {
   // console.log(navs);
   const showMenu = () => {
     for (let i = 0; i < navs.length; i++) {
-      navs[i].classList.toggle("navitem__hide");
+          navs[i].classList.toggle("navitem__hide");
     }
   };
   // console.log(window.screen.width);
@@ -23,9 +23,7 @@ function Navbar() {
       }
     for (let i = 0; i < navs.length; i++) {
       if (window.screen.width < parseInt(700)) {
-         if (navs[i].textcontent !== "Portfolio") {
             navs[i].addEventListener("click", showMenu);
-         }
       }
     }
     window.addEventListener("scroll", () => {
@@ -90,7 +88,7 @@ function Navbar() {
             Contact
           </Link>
         </li>
-        <li className="nav-item navitem__hide">
+        <li className="navitem__hide">
           <Link to="home" spy={true} smooth={true}>
             Portfolio
           </Link>
