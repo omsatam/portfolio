@@ -11,8 +11,7 @@ function Navbar() {
   // console.log(menuIcon);
 
   // console.log(navs);
-  const showMenu = (a) => {
-    navs[a].classlist.add("navitem__hide");
+  const showMenu = () => {
     for (let i = 0; i < navs.length; i++) {
       navs[i].classList.toggle("navitem__hide");
     }
@@ -24,7 +23,7 @@ function Navbar() {
       }
     for (let i = 0; i < navs.length; i++) {
       if (window.screen.width < parseInt(700)) {
-        navs[i].addEventListener("click", showMenu(i));
+        navs[i].addEventListener("click", showMenu);
       }
     }
     window.addEventListener("scroll", () => {
@@ -89,11 +88,11 @@ function Navbar() {
             Contact
           </Link>
         </li>
-         <li className="nav-item navitem__hide">
-           <Link to="home" spy={true} smooth={true}>
-        
-           </Link>
-         </li>
+        <li className="nav-item navitem__hide">
+          <Link to="home" spy={true} smooth={true}>
+            Portfolio
+          </Link>
+        </li>
       </div>
     </>
   );
