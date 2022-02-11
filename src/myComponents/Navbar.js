@@ -88,7 +88,7 @@ function Navbar() {
             Contact
           </Link>
         </li>
-        <li className="navitem__hide">
+        <li className="nav-item navitem__hide">
           <Link to="home" spy={true} smooth={true}>
             Portfolio
           </Link>
