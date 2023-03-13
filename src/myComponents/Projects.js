@@ -18,21 +18,21 @@ function Projects() {
 
   useEffect(() => {
     async function fetchProjects() {
-      const requestProjects = await axios.get("projects");
+      const requestProjects = await axios.get("projects.json");
       setProjects(requestProjects.data);
-      const requestJavascript = await axios.get("javascript");
+      const requestJavascript = await axios.get("javascript.json");
       setJavascript(requestJavascript.data);
-      const requestMl = await axios.get("ml");
+      const requestMl = await axios.get("ml.json");
       setMl(requestMl.data);
-      const requestHtml = await axios.get("html");
+      const requestHtml = await axios.get("html.json");
       setHtml(requestHtml.data);
-      const requestMern = await axios.get("mern");
+      const requestMern = await axios.get("mern.json");
       setMern(requestMern.data);
-      const requestReact = await axios.get("react");
+      const requestReact = await axios.get("react.json");
       setReact(requestReact.data);
-      const requestNative = await axios.get("native");
+      const requestNative = await axios.get("native.json");
       setNative(requestNative.data);
-      const requestDjango = await axios.get("django");
+      const requestDjango = await axios.get("django.json");
       setDjango(requestDjango.data);
     }
     fetchProjects();
