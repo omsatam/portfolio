@@ -1,0 +1,23 @@
+[
+    {
+        "name": "car-price",
+        "category": "ml",
+        "url": "https://car-price-predi.herokuapp.com/",
+        "imageUrl": "https://i.postimg.cc/X74X0cBc/IMG-20210611-121627.jpg",
+        "code": "https://github.com/omsatam/Machine-Learning-Projects/tree/main/Car_price_prediction"
+        },
+        {
+        "name": "corona",
+        "category": "ml",
+        "url": "https://covidchecker-19.herokuapp.com/",
+        "imageUrl": "https://i.postimg.cc/fRHVCtL7/IMG-20210611-121848.jpg",
+        "code": "https://github.com/omsatam/Machine-Learning-Projects/tree/main/Corona%20probability%20checker"
+        },
+        {
+        "name": "flight",
+        "category": "ml",
+        "url": "https://flight-price-predi.herokuapp.com/",
+        "imageUrl": "https://i.postimg.cc/5t66R4Yh/IMG-20210611-121711.jpg",
+        "code": "https://github.com/omsatam/Machine-Learning-Projects/tree/main/Flight%20%20price%20prediction"
+        }
+]

@@ -1,0 +1,163 @@
+[
+    {
+    "name": "slack",
+    "category": "react",
+    "url": "http://slack-clone-with-react-omsatam.vercel.app/",
+    "imageUrl":"https://i.postimg.cc/Dw7GB3ch/IMG-20210611-121229.jpg",
+    "code": "https://github.com/omsatam/slack-clone-with-react"
+    },
+    {
+    "name": "airbnb",
+    "category": "react",
+    "url": "http://airbnb-clone-with-react.vercel.app/",
+    "imageUrl": "https://i.postimg.cc/zXFbLPYc/IMG-20210611-121310.jpg",
+    "code": "https://github.com/omsatam/Airbnb-clone-with-react"
+    },
+ {
+"name": "tiktok",
+"category": "mern",
+"url": "http://tiktok-clone-with-mern.vercel.app/",
+"imageUrl": "https://i.postimg.cc/FHGL6CPL/IMG-20210611-121200.jpg",
+"code": "https://github.com/omsatam/tiktok-clone-with-mern"
+},
+ {
+"name": "youtube",
+"category": "react",
+"url": "http://youtube-clone-with-react.vercel.app/",
+"imageUrl": "https://i.postimg.cc/dtYZVcpC/IMG-20210611-121334.jpg",
+"code": "https://github.com/omsatam/youtube-clone-with-react"
+},
+{
+"name": "netflix",
+"category": "react",
+"url": "https://full-stack-netflix-clone.vercel.app/",
+"imageUrl": "https://i.postimg.cc/q7PMD8dK/IMG-20210611-122120.jpg",
+"code": "https://github.com/omsatam/full-stack-netflix-clone"
+},
+{
+"name": "amazon",
+"category": "react",
+"url": "http://amazon-clone-with-react-firebase.vercel.app/",
+"imageUrl": "https://i.postimg.cc/Jz7yjc14/IMG-20210611-121356.jpg",
+"code": "https://github.com/omsatam/Amazon-clone-with-react-firebase"
+},
+{
+"name": "whatsapp",
+"category": "mern",
+"url": "http://whatsapp-clone-firebase-mern.vercel.app/",
+"imageUrl": "https://i.postimg.cc/jR6QNZhK/IMG-20210611-121414.jpg",
+"code": "https://github.com/omsatam/whatsapp-clone-firebase-mern"
+},
+{
+"name": "spotify",
+"category": "react",
+"url": "http://spotify-clone-with-react-omsatam.vercel.app/",
+"imageUrl": "https://i.postimg.cc/qMwqBh8f/IMG-20210611-122324.jpg",
+"code": "https://github.com/omsatam/spotify-clone-with-react"
+},
+{
+"name": "instagram",
+"category": "mern",
+"url": "http://instagram-clone-with-mern.vercel.app/",
+"imageUrl": "https://i.postimg.cc/MHkMBCGh/IMG-20210611-121434.jpg",
+"code": "https://github.com/omsatam/Instagram-clone-with-mern"
+},
+{
+"name": "tinder",
+"category": "mern",
+"url": "https://tinder-clone-with-mern-5bu4ee3vu-omsatam.vercel.app/",
+"imageUrl": "https://i.postimg.cc/XvzyjG6N/IMG-20210611-121533.jpg",
+"code": "https://github.com/omsatam/Tinder-clone-with-MERN"
+},
+{
+"name": "car-price",
+"category": "ml",
+"url": "https://car-price-predi.herokuapp.com/",
+"imageUrl": "https://i.postimg.cc/X74X0cBc/IMG-20210611-121627.jpg",
+"code": "https://github.com/omsatam/Machine-Learning-Projects/tree/main/Car_price_prediction"
+},
+{
+"name": "flight",
+"category": "ml",
+"url": "https://flight-price-predi.herokuapp.com/",
+"imageUrl": "https://i.postimg.cc/5t66R4Yh/IMG-20210611-121711.jpg",
+"code": "https://github.com/omsatam/Machine-Learning-Projects/tree/main/Flight%20%20price%20prediction"
+},
+{
+"name": "corona",
+"category": "ml",
+"url": "https://covidchecker-19.herokuapp.com/",
+"imageUrl": "https://i.postimg.cc/fRHVCtL7/IMG-20210611-121848.jpg",
+"code": "https://github.com/omsatam/Machine-Learning-Projects/tree/main/Corona%20probability%20checker"
+},
+{
+"name": "dragon",
+"category": "javascript",
+"url": "http://dragon-game-with-javascript.vercel.app/",
+"imageUrl": "https://i.postimg.cc/sg2XMjcM/IMG-20210611-122009.jpg",
+"code": "https://github.com/omsatam/Dragon-game-with-Javascript"
+},
+{
+"name": "chat-app",
+"category": "javascript",
+"url": "http://realtime-chat-app-using-js-and-socketio1-omsatam.vercel.app/",
+"imageUrl": "https://i.postimg.cc/Y9Tg34dD/IMG-20210611-121455.jpg",
+"code": "https://github.com/omsatam/RealtimeChatApp-using-js-and-socketio"
+},
+{
+"name": "car",
+"category": "css",
+"url": "https://car-animation-with-css.vercel.app/",
+"imageUrl": "https://i.postimg.cc/xjKq7F81/IMG-20210611-122034.jpg",
+"code": "https://github.com/omsatam/car-animation-with-css"
+},
+{
+"name": "clock",
+"category": "javascript",
+"url": "https://clock-using-javascript.vercel.app/",
+"imageUrl": "https://i.postimg.cc/vTdTT5qy/IMG-20210611-122104.jpg",
+"code": "https://github.com/omsatam/clock-using-javascript"
+},
+{
+"name": "blackjack",
+"category": "javascript",
+"url": "https://blackjack-gys9w7y9e-omsatam.vercel.app/",
+"imageUrl": "https://i.postimg.cc/wMcvm3Zm/IMG-20210611-122258.jpg",
+"code": "https://github.com/omsatam/Javascript-projects/tree/main/BlackJack"
+},
+{
+"name": "simple",
+"category": "javascript",
+"url": "https://javascript-projects-two.vercel.app/",
+"imageUrl": "https://i.postimg.cc/8znCW2Kt/IMG-20210611-122352.jpg",
+"code": "https://github.com/omsatam/Javascript-projects"
+},
+{
+"name": "signal",
+"category": "native",
+"url": "https://signal-clone-with-react-native.vercel.app/",
+"imageUrl": "https://i.postimg.cc/8ks9b7yN/IMG-20210611-101452.jpg",
+"code": "https://github.com/omsatam/signal-clone-with-react-native"
+},
+{
+"name": "innovators",
+"category": "django",
+"url": "https://github.com/omsatam/3D-Innovators/blob/master/Innovators/69e268cf-b2bf-4fb1-a8a0-aa02a5db8978%20(1).webm?raw=true",
+"imageUrl": "https://i.postimg.cc/MKwGf8LQ/IMG-20210613-194905.jpg",
+"code": "https://github.com/omsatam/3D-Innovators"
+},
+{
+"name": "LearnProfessionals",
+"category": "css",
+"url": "https://learnprofessionals.vercel.app/",
+"imageUrl": "https://i.postimg.cc/90dFgxD0/IMG-20210613-194819.jpg",
+"code": "https://github.com/omsatam/learnprofessionals"
+},
+	{
+"name": "Login",
+"category": "css",
+"url": "https://login-omsatam.vercel.app/",
+"imageUrl": "https://i.postimg.cc/HLCHvJ0p/IMG-20210615-101731.jpg",
+"code": "https://github.com/omsatam/learnprofessionals/tree/master/login%20page"
+}
+]

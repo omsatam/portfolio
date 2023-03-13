@@ -1,0 +1,28 @@
+[{
+    "name": "whatsapp",
+    "category": "mern",
+    "url": "http://whatsapp-clone-firebase-mern.vercel.app/",
+    "imageUrl": "https://i.postimg.cc/jR6QNZhK/IMG-20210611-121414.jpg",
+    "code": "https://github.com/omsatam/whatsapp-clone-firebase-mern"
+    },
+    {
+    "name": "instagram",
+    "category": "mern",
+    "url": "http://instagram-clone-with-mern.vercel.app/",
+    "imageUrl": "https://i.postimg.cc/MHkMBCGh/IMG-20210611-121434.jpg",
+    "code": "https://github.com/omsatam/Instagram-clone-with-mern"
+    },
+    {
+        "name": "tiktok",
+        "category": "mern",
+        "url": "http://tiktok-clone-with-mern.vercel.app/",
+        "imageUrl": "https://i.postimg.cc/FHGL6CPL/IMG-20210611-121200.jpg",
+        "code": "https://github.com/omsatam/tiktok-clone-with-mern"
+        },{
+            "name": "tinder",
+            "category": "mern",
+            "url": "https://tinder-clone-with-mern-5bu4ee3vu-omsatam.vercel.app/",
+            "imageUrl": "https://i.postimg.cc/XvzyjG6N/IMG-20210611-121533.jpg",
+            "code": "https://github.com/omsatam/Tinder-clone-with-MERN"
+            }
+]

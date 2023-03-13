@@ -1,0 +1,38 @@
+[
+    {
+        "name": "dragon",
+        "category": "javascript",
+        "url": "http://dragon-game-with-javascript.vercel.app/",
+        "imageUrl": "https://i.postimg.cc/sg2XMjcM/IMG-20210611-122009.jpg",
+        "code": "https://github.com/omsatam/Dragon-game-with-Javascript"
+    },
+    {
+        "name": "blackjack",
+        "category": "javascript",
+        "url": "https://blackjack-gys9w7y9e-omsatam.vercel.app/",
+        "imageUrl": "https://i.postimg.cc/wMcvm3Zm/IMG-20210611-122258.jpg",
+        "code": "https://github.com/omsatam/Javascript-projects/tree/main/BlackJack"
+        },
+        {
+            "name": "simple",
+            "category": "javascript",
+            "url": "https://javascript-projects-two.vercel.app/",
+            "imageUrl": "https://i.postimg.cc/8znCW2Kt/IMG-20210611-122352.jpg",
+            "code": "https://github.com/omsatam/Javascript-projects"
+            },
+        {
+        "name": "chat-app",
+        "category": "javascript",
+        "url": "http://realtime-chat-app-using-js-and-socketio1-omsatam.vercel.app/",
+        "imageUrl": "https://i.postimg.cc/Y9Tg34dD/IMG-20210611-121455.jpg",
+        "code": "https://github.com/omsatam/RealtimeChatApp-using-js-and-socketio"
+        },
+    {
+        "name": "clock",
+        "category": "javascript",
+        "url": "https://clock-using-javascript.vercel.app/",
+        "imageUrl": "https://i.postimg.cc/vTdTT5qy/IMG-20210611-122104.jpg",
+        "code": "https://github.com/omsatam/clock-using-javascript"
+        }
+            
+]

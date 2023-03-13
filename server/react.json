@@ -1,0 +1,43 @@
+[    {
+    "name": "youtube",
+    "category": "react",
+    "url": "http://youtube-clone-with-react.vercel.app/",
+    "imageUrl": "https://i.postimg.cc/dtYZVcpC/IMG-20210611-121334.jpg",
+    "code": "https://github.com/omsatam/youtube-clone-with-react"
+    },
+    {
+        "name": "netflix",
+        "category": "react",
+        "url": "https://full-stack-netflix-clone.vercel.app/",
+        "imageUrl": "https://i.postimg.cc/q7PMD8dK/IMG-20210611-122120.jpg",
+        "code": "https://github.com/omsatam/full-stack-netflix-clone"
+        },
+    {
+    "name": "amazon",
+    "category": "react",
+    "url": "http://amazon-clone-with-react-firebase.vercel.app/",
+    "imageUrl": "https://i.postimg.cc/Jz7yjc14/IMG-20210611-121356.jpg",
+    "code": "https://github.com/omsatam/Amazon-clone-with-react-firebase"
+    },
+    {
+        "name": "slack",
+        "category": "react",
+        "url": "http://slack-clone-with-react-omsatam.vercel.app/",
+        "imageUrl":"https://i.postimg.cc/Dw7GB3ch/IMG-20210611-121229.jpg",
+        "code": "https://github.com/omsatam/slack-clone-with-react"
+        },
+        {
+            "name": "spotify",
+            "category": "react",
+            "url": "http://spotify-clone-with-react-omsatam.vercel.app/",
+            "imageUrl": "https://i.postimg.cc/qMwqBh8f/IMG-20210611-122324.jpg",
+            "code": "https://github.com/omsatam/spotify-clone-with-react"
+            },
+        {
+            "name": "airbnb",
+            "category": "react",
+            "url": "http://airbnb-clone-with-react.vercel.app/",
+            "imageUrl": "https://i.postimg.cc/zXFbLPYc/IMG-20210611-121310.jpg",
+            "code": "https://github.com/omsatam/Airbnb-clone-with-react"
+            }
+]
